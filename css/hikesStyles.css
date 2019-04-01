@@ -1,0 +1,100 @@
+.container {
+  font-family: Palantino;
+}
+
+.navbar {
+  background-color:#8b6f47;
+  border-bottom: 3px solid #bbab9b;
+  font-family: Palatino;
+}
+
+
+
+header .bg-img{
+  background-image: url("../img/hikesTopImage.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 350px;
+  border-bottom: 3px solid #bbab9b;
+}
+
+/* Bottom right text */
+.textOverImage {
+  position: absolute;
+  left: -5%;
+  background-color: #8b6f47;
+  border: 3px solid #bbab9b;
+  color: white;
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-family: Palatino;
+}
+
+.textOverImage ul {
+  padding-left: 20px;
+}
+
+.textOverImage li {
+ list-style-type: none;
+}
+
+.wrapper {
+  padding-top: 10px;
+  width: 100%;
+  display: inline-grid;
+  height: 40%;
+}
+
+.wrapper .box img {
+  max-width: 100%;
+}
+
+.wrapper .box .weather {
+  margin-bottom: 20px;
+}
+
+.route {
+  margin-top: 10px;
+}
+ .route iframe {
+  padding-top: 0px;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .wrapper .box img {
+    padding-bottom: 5px;
+  }
+
+  }
+/*
+@media screen and (min-width: 1200px) {
+  .wrapper .box .information {
+    font-size: 18px;
+}
+*/
+.d-block {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+footer {
+  background-color:#8b6f47;
+  color: white;
+}
