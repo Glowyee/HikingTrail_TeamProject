@@ -16,7 +16,6 @@ header .bg-img{
   background-size: cover;
   background-position: center center;
   min-height: 350px;
-  border-bottom: 3px solid #bbab9b;
 }
 
 /* Bottom right text */
@@ -24,7 +23,6 @@ header .bg-img{
   position: absolute;
   left: 5%;
   background-color: #c1946a;
-  border: 3px solid #bbab9b;
   color: white;
   margin-top: 80px;
   padding: 10px;
