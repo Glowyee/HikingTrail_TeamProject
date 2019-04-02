@@ -18,17 +18,16 @@ header .bg-img{
   min-height: 350px;
 }
 
-/* Bottom right text */
+/* Bottom left text */
 .textOverImage {
   position: absolute;
   left: 5%;
-  background-color: #c1946a;
+  background: rgba(0,0,0, 0.4);
   color: white;
   margin-top: 80px;
   padding: 10px;
   border-radius: 30px;
 
-}
 
 .textOverImage ul {
   padding-left: 5px;
