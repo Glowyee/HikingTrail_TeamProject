@@ -3,9 +3,10 @@
 }
 
 .navbar {
-  background-color:#c1946a;
   font-size: 18px;
   font-weight: bold;
+  text-color: black;
+  opacity: 3;
 
 }
 
@@ -16,9 +17,10 @@ header .bg-img{
   background-size: cover;
   background-position: center center;
   min-height: 350px;
+
 }
 
-/* Bottom left text */
+/* Bottom right text */
 .textOverImage {
   position: absolute;
   left: 5%;
@@ -28,9 +30,10 @@ header .bg-img{
   padding: 10px;
   border-radius: 30px;
 
+}
 
 .textOverImage ul {
-  padding-left: 5px;
+  padding-left: 20px;
 }
 
 .textOverImage h1 {
@@ -40,7 +43,7 @@ header .bg-img{
 .textOverImage li {
  list-style-type: none;
  font-size: 17px;
- padding-left: 0;
+ padding: 0;
 }
 
 .wrapper {
