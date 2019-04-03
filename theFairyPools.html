@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Hikes|The Fairy Pools</title>
-
-    <link rel="stylesheet" href="./css/hikesStyles.css">
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet"  href="css/hikesStyles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Hiking Trail</title>
   </head>
   <body>
     <header>
-      <!-- Navigation bar -->
-      <!-- NOTHING NEEDS TO BE CHANGED HERE -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Navigation section -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#">
+            <img src="images/Hike.jpg">
+            Hikes
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home </a>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown nav-item active">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Hikes <span class="sr-only">(current)</span>
-                </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">The Cobbler</a>
-                    <a class="dropdown-item" href="#">Ben Nevis</a>
-                    <a class="dropdown-item nav-item active" href="#">The Fairy Pools</a>
-                    <a class="dropdown-item" href="#">Ben Lomond</a>
-                  </div>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tips</a>
+                <a class="nav-link" href="#trails">Trails</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link" href="#join">Join</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -56,11 +55,12 @@
           <div class="textOverImage">
             <h1> The Fairy Pools </h1>
             <ul>
-                <li> <i class="fas fa-hiking"> </i> Elevation: 360m </li>
-                <li> <i class="fas fa-route"> </i> Distance: 8km </li>
-                <li> <i class="fas fa-history"> </i> Time: 2-4 hours </li>
-                <li> <i class="fas fa-exclamation-triangle"> </i> Difficulty: Easy </li>
-                <li> <i class="fas fa-map-marker-alt"> </i> Start grid reference: NG424258 </li>
+                <li> <i class="fas fa-hiking"> </i> 360m </li>
+                <li> <i class="fas fa-route"> </i> 8km </li>
+                <li> <i class="fas fa-history"> </i> 2-4 hours </li>
+                <li> <i class="fas fa-exclamation-triangle"> </i> <a id="link" href="#" data-toggle="popover" color="white" data-content="Recommended for people
+                  in good/moderate hiking condition."> Easy </a>  </li>
+                <li> <i class="fas fa-map-marker-alt"> </i> NG424258 </li>
             </ul>
           </div>
 
@@ -149,12 +149,15 @@
     </div>
 <!-- end www.htmlcommentbox.com -->
 
-    <!-- Optional JavaScript -->
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-   </body>
+<!-- Necessary for Bootstrap's javascript plugins-->
+<script src="js/hikes.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js/popper.js"></script>
+
+</body>
 
    <footer>
      <div class="container">
