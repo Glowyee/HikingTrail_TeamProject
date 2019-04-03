@@ -1,21 +1,644 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Hiking Trail</title>
   </head>
-  <body>
-      again testing..
 
-  <!-- Necessary for Bootstrap's javascript plugins-->
+  <body data-spy="scroll" data-target="#navbarResponsive">
+
+    <!--Start Home Section -->
+      <div id ="home">
+        <!-- Navigation section -->
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">
+              <img src="images/Hike.jpg">
+              Hikes
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#trails">Trails</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#join">Join</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!-- End of Navigation -->
+
+        <!-- Starting Landing page section -->
+          <div class="video-background">
+            <div class="video-wrap">
+              <div id="video">
+                <video id="bgvid" autoplay loop muted playsinline>
+                  <source src="Mountain.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <!--overlay text-->
+          <div class="caption ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>HIKING TRAILS</h1>
+                  <h3 >
+                    <a href="" class="typewrite text-white" data-period="2000" data-type='["A walk in nature walks the soul back home.", "Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you are climbing it.", "Nature is not a place to visit. It is home.", "For hiking is one of those things that you can only do when you have the determination in you.."]'>
+                      <span class="wrap"></span>
+                    </a>
+                  </h3>
+                  <a class="home-btn" href="#trails"> GET TRAILS</a>
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        <!--End landing page section-->
+      </div>
+    <!-- end Home Section -->
+
+    <!--floating icon-->
+    <div class="icons">
+      <ul>
+        <a href="#"><li class="facebook"><i class="fab fa-facebook-f"></i></li></a>
+        <a href="#"><li class="instagram"><i class="fab fa-instagram"></i></li></a>
+        <a href="#"><li class="twitter"><i class="fab fa-twitter"></i></li></a>
+        <a href="#"><li class="linkedin"><i class="fab fa-linkedin-in"></i></li></a>
+        <a href="#"><li class="mail"><i class="far fa-envelope"></i></li></a>
+      </ul>
+    </div>
+
+    <!--Start Trail Section -->
+      <div id ="trails">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="trails-left">
+                <img src="images/Hiking2.jpg">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="trails-right">
+                <h2> Check Out the best hiking trails in Scotland</h2>
+                <p>
+                  Lidhh vsyes h jhzfdyify zfidy gugdsug Ffyfdy guigz fzfyfyid iisg gigiz fzfSyfi gguigzg giggd ffyffid fiufizfz bdyzi fauiz uid tuzjgdgiygs fzfyidgiygied yid giids if afifid fdy aios fii ds iuz gsgi du aiu eui duodyuu a degiuz dusguid fuisyfo siuf sgs iz uidu cuiIo sgudofyozyio tuoa.
+                </p>
+              </div>
+                <a class="trail-btn " href="" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end Trail Section -->
+
+    <!--Start join Section -->
+      <div id ="join" class="join-section">
+        <div class="join-highlights">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h2>Join us on various hiking trips</h2>
+                <p>Latest trip to glorious mountain, join to be part of the fasinating trip.</p> 
+              </div>
+              <div class="col-md-4">
+                 <button type="button" class="join-btn" data-toggle='modal' data-target='.bd-example-modal-lg'>Join Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         <!--Modal Join-->
+        <div class="modal fade bd-example-modal-lg" id="my-modal" tabindex="-1"role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+           <div class="modal-dialog modal-lg" role="document">
+             <div class="modal-content">
+              <!--Modal Header-->
+               <div class="modal-header">
+                 <h4 class="modal-title">Join Delivered!</h4>
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <!--Modal body-->
+               <div class="modal-body">
+                 <form id="target">
+                    <div class=" form-row">
+                      <div class="form-group col-md-2 text-center">
+                        <i class="far fa-user fa-2x"></i>
+                      </div>
+                      <div class="form-group col-md-10">
+                        <input type="text" class="form-control no-border" placeholder="Full name" required>
+                      </div>
+                  </div>
+                   <div class=" form-row">
+                      <div class="form-group col-md-2 text-center">
+                        <i class="far fa-envelope fa-2x"></i>
+                      </div>
+                      <div class="form-group col-md-10">
+                        <input type="text" class="form-control no-border" placeholder="name@example.com" required>
+                      </div>
+                  </div>
+                   <div class=" form-row">
+                      <div class="form-group col-md-2 text-center">
+                        <i class="fas fa-phone fa-2x"></i>
+                      </div>
+                      <div class="form-group col-md-10">
+                        <input type="text" class="form-control no-border" placeholder="+234 652 751 9724" required>
+                      </div>
+                  </div>
+                  <div class="text-center">
+                      <button type="submit" class="register-btn">Hike</button>
+                    </div>
+                 </form>
+               </div>
+               <div class="alert alert-success alert-dismissable">
+                          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                          <i class="fas fa-thumbs-up"></i>
+                         Success! message sent successfully.
+                </div>
+               <!--Modal footer -->
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+          </div>
+        </div>
+    <!-- end join Section -->
+
+    <!--Start Reviews Section -->
+      <div id ="reviews">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center text-white text-uppercase"><strong>Reviews</strong></h2>
+              <!--Carousel Begins-->
+                <div class="carousel slide" id="my-carousel" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#my-carousel" data-slide-to="0"></li>
+                    <li data-target="#my-carousel" data-slide-to="1" class="active"></li>
+                    <li data-target="#my-carousel" data-slide-to="2"></li>
+                  </ol>
+
+                 <div class="carousel-inner">
+                    <!--Slide 1-->
+                    <div class="carousel-item text-center">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="img-box border rounded-circle m-auto">
+                            <img src="images/person4.jpeg" class="d-block w-100 rounded-circle">
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Stephen Judge</strong></h5>
+                          <h6 class="text-white font-italic m-1">Developer</h6>
+                          <blockquote class="pt-3 text-white">
+                            <i class="fas fa-quote-left"></i>
+                            Lorem hvdiis hvihwik hviigwdg vhiuuia viyigi hviiisd hiyyijd hvhviyyis ujfyuyu fyta ufuyf ryed ytytyik a yfkkeyi kdyufyeyi yyitkyiK EYIT EYYE  YTIKYWE GG gyit duyi ye yfyisy yyiyitwsyyigw yfyuefytyeyiey yggiugyuu.
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--Slide 2-->
+                    <div class="carousel-item text-center active">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="img-box border rounded-circle m-auto">
+                            <img src="images/person3.jpeg" class="d-block w-100 rounded-circle">
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Jeff Sterling</strong></h5>
+                          <h6 class="text-white font-italic m-1">Photographer</h6>
+                          <blockquote class="pt-3 text-white">
+                            <i class="fas fa-quote-left"></i>
+                            Lorem hvdiis hvihwik hviigwdg vhiuuia viyigi hviiisd hiyyijd hvhviyyis ujfyuyu fyta ufuyf ryed ytytyik a yfkkeyi kdyufyeyi yyitkyiK EYIT EYYE  YTIKYWE GG gyit duyi ye yfyisy yyiyitwsyyigw yfyuefytyeyiey yggiugyuu.
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--Slide 3-->
+                    <div class="carousel-item text-center">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="img-box border rounded-circle m-auto">
+                            <img src="images/person1.jpeg" class="d-block w-100 rounded-circle">
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Mirabel Duke</strong></h5>
+                          <h6 class="text-white font-italic m-1">Artist</h6>
+                          <blockquote class="pt-3 text-white">
+                            <i class="fas fa-quote-left"></i>
+                            Lorem hvdiis hvihwik hviigwdg vhiuuia viyigi hviiisd hiyyijd hvhviyyis ujfyuyu fyta ufuyf ryed ytytyik a yfkkeyi kdyufyeyi yyitkyiK EYIT EYYE  YTIKYWE GG gyit duyi ye yfyisy yyiyitwsyyigw yfyuefytyeyiey yggiugyuu.
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+
+                  <!--carousel controls
+                  <a href="#my-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+
+                  <a href="#my-carousel" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>-->
+                </div>
+                <!-- Carousel End-->
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end Reviews Section -->
+
+    <!--Start Team Section -->
+    <div id ="team">
+      <div class="container">
+        <div class="team-title">
+          <h2 class=" text-center text-uppercase">The Team</h2>
+        </div>
+        <div class="row">
+          <!--first card-->
+          <div class="col-xs-12 col-sm-6 col-md-3 card1">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover')">
+              <div class="main-flip ">
+                <div class="frontside">
+                  <div class="card">
+                    <img class="card-img-top"src="images/person2.jpg">
+                    <div class="card-body text-center">
+                      <h5 class="card-title"><strong class="text-success text-uppercase">Manasse</strong></h5>
+                      <h6 class="">Bio-chemist</h6>
+                      <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <div class="back-title"></div>
+                        <hr>
+                        <h5 class="card-title"><strong>About Me</strong></h5>
+                        <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                        <hr>
+                        <ul class="list-inline">
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-whatsapp fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!--Second card-->
+          <div class="col-xs-12 col-sm-6 col-md-3 card2">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover')">
+              <div class="main-flip ">
+                <div class="frontside">
+                  <div class="card">
+                    <img class="card-img-top"src="images/person2.jpg">
+                    <div class="card-body text-center">
+                     
+                      <h5 class="card-title"><strong class="text-success text-uppercase">Manasse</strong></h5>
+                      <h6>Bio-chemist</h6>
+                      <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <div class="back-title"></div>
+                        <hr>
+                        <h5 class="card-title"><strong>About Me</strong></h5>
+                        <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                        <hr>
+                        <ul class="list-inline">
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-whatsapp fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!--third card-->
+          <div class="col-xs-12 col-sm-6 col-md-3 card3">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover')">
+              <div class="main-flip">
+                <div class="frontside">
+                  <div class="card">
+                    <img class="card-img-top"src="images/person2.jpg">
+                    <div class="card-body text-center">
+                     
+                      <h5 class="card-title"><strong class="text-success text-uppercase">Manasse</strong></h5>
+                      <h6>Bio-chemist</h6>
+                      <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <div class="back-title"></div>
+                        <hr>
+                        <h5 class="card-title"><strong>About Me</strong></h5>
+                        <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                        <hr>
+                        <ul class="list-inline">
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-whatsapp fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+           <!--fourth card-->
+          <div class="col-xs-12 col-sm-6 col-md-3 card4">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover')">
+              <div class="main-flip">
+                <div class="frontside">
+                  <div class="card">
+                    <img class="card-img-top"src="images/person2.jpg">
+                    <div class="card-body text-center">
+                      <h5 class="card-title"><strong class=" text-uppercase">Glory </strong>Asuquo</h5>
+                      <h6>Software Developer</h6>
+                      <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <div class="back-title"></div>
+                        <hr>
+                        <h5 class="card-title"><strong>About Me</strong></h5>
+                        <p class="card-text">gggigia hgiguigisd gihgyigiy gigiggef guigu uguigade gugue guigudegu gigdegu dgugehiigige </p>
+                        <hr>
+                        <ul class="list-inline">
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-whatsapp fa-2x"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="social-icon" href="#">
+                              <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Team Section -->
+
+    <!--Start About Section -->
+      <div id ="about" class=" about-background">
+        <div class="overlay">
+         <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 about-left">
+                <div class="about-text text-white">
+                  <h2> About Us</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque rerum, facere hic harum, voluptatem veritatis iure blanditiis sequi cupiditate dolore cum a tenetur incidunt non.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque rerum, facere hic harum, voluptatem veritatis iure blanditiis sequi cupiditate dolore cum a tenetur incidunt non.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque rerum, facere hic harum, voluptatem veritatis iure blanditiis sequi cupiditate dolore cum a tenetur incidunt non.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 about-right">
+                <div class="about-img">
+                  <img src="images/kit.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end About Section -->
+
+    <!--Start Contact Section -->
+      <div id ="contact">
+        <div class="container">
+          <div class="contact-title">
+            <h5 class="text-danger"> Lets Get In Touch</h5>
+            <h2> Contact Us</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 contact-left">
+              <p class="py-3"> We value the community we have buit and would not let distance get in between us. We are just one click away. Please fill in your details and inquires and get real-time response. We are at your service. </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5><strong> Email </strong></h5>
+                  <h6>Main Email: hikingtrail@website.com</h6>
+                  <h6>Inquires: trail-inquries@website.com</h6>
+                </div>
+                <div class="col-md-6">
+                 <h5><strong> Address </strong></h5>
+                  <p>35 Calgary Street, Buchanan View, Glasgow, United Kingdom.</p>
+                </div>
+              </div>
+              <div class="row info-spacing">
+                <div class="col-md-6">
+                   <h5><strong> Call </strong></h5>
+                  <h6>Office Telephone: 07874207635</h6>
+                  <h6>Office Telephone: 07874207635</h6>
+                </div>
+                <div class="col-md-6">
+                  <h5><strong>Support</strong></h5>
+                    <h6>Trails Support: info@website.com</h6>
+                    <h6>Travel Support: travel@website.com</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="google-map">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.6249666880376!2d-4.249360048993522!3d55.86917298048936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888441937eff083%3A0xe1f042673121c538!2sBuchanan+View!5e0!3m2!1sen!2suk!4v1554221923954!5m2!1sen!2suk" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <!--contact form section-->
+          <form class="contact-form" onsubmit="openModal()" id="myForm">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control no-border" id="validationDefault01" placeholder="First name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control no-border"id="validationDefault02" placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="row input-spacing">
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control no-border" id="validationDefault03" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control no-border" id="validationDefault04" placeholder="phone number" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-12">
+                    <textarea class="form-control no-border" id="validationDefault05" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="form-group col-md-12 text-center" id="contactBtn">
+                   <button type="submit" class="contact-btn text-uppercase"><strong>Submit Inquries</strong></button>
+
+                   <!--Modal-->
+                   <div class="modal fade" id="myModal" role="dialog">
+                     <div class="modal-dialog" role="document">
+                       <div class="modal-content">
+                        <!--Modal Header-->
+                         <div class="modal-header">
+                           <h4 class="modal-title">Message Delivered!</h4>
+                           <button type="button" class="close" data-dismiss="modal">&times;</button>
+                         </div>
+                         <!--Modal body-->
+                         <div class="modal-body">
+                           Thank you for your message. Please check your email for our response in the next 24 hours.
+                         </div>
+                         <!--Modal footer -->
+                         <div class="modal-footer">
+                           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+            </div> 
+          </form>
+        </div>
+      </div>
+    <!-- end Contact Section -->
+
+    <footer class="foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="text-white">
+              POWERED BY
+            </p>
+            <img src="images/CFG.png">
+            <div class="foot-note">
+              <p class="text-uppercase">
+                © Copyright 2019 - All rights reserved hiking-trail.com
+              </p>
+              <p >
+                Made with love Code First Girls 2019 Set
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Necessary for Bootstrap's javascript plugins-->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/fontawesome.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
     <script src="js/popper.js"></script>
   </body>
-
 </html>
