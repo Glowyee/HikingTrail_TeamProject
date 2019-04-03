@@ -46,6 +46,10 @@ header .bg-img{
  padding: 0;
 }
 
+#link {
+  color: white;
+}
+
 .wrapper {
   padding-top: 10px;
   width: 100%;
