@@ -1,0 +1,669 @@
+body{
+	overflow-x: hidden;
+	font-family: 'Roboto Slab', serif; 
+}
+
+/*+++++++++Navigation styles+++++++++++*/
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+}
+
+.bg-dark{
+	background:transparent!important;
+}
+
+.bg-dark.scrolled{
+	background-color: rgba(0,0,0,0.6) !important;
+}
+
+.navbar-brand img{
+	height:2rem;
+	padding-left: 20px;
+}
+
+.navbar-nav li{
+	padding-right: 1rem; 
+}
+
+.navbar-nav{
+	padding-right: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+		color:#1ebba3;
+}
+
+/*+++++++++End navigation styles+++++++++++*/
+
+/*============icons----------*/
+.icons{
+	top:60%;
+	left:0;
+	transform: translateY(-50%);
+	position: fixed;
+	z-index: 100;
+}
+
+.icons ul{
+	padding:initial;
+}
+
+.icons ul li{
+	height:40px;
+	width:40px;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-top: 6px;
+	margin-top: 5px;
+	color:#fff;
+	/*background-color: #000;*/
+
+}
+
+.facebook{
+	background: #3b5998;
+}
+
+.mail{
+	background: #ff0000;
+}
+
+.instagram{
+	background: #FF8C00;
+}
+
+.twitter{
+	background: #55acee;
+}
+
+.linkedin{
+	background: #007bb5;
+}
+
+.icons ul li:hover{
+	padding-left: 30px;
+	width:80px;
+	transition: 1s;
+}
+
+/*============ end icons----------*/
+
+
+/*+++++++++Video styles+++++++++++*/
+.video-background {
+	position: relative;
+	width:100%;
+	height: 25rem;
+	min-height: 100vh; 
+	background-color: rgba(0, 0, 0, 1)!important;
+	overflow: hidden;
+	/*opacity: 0.5;*/
+}
+
+.video-background video{
+	min-height: 100%;
+	filter: opacity(60%); 
+}
+
+
+.caption{
+	position: absolute;
+	top: 38%;
+	width:100%;
+	color: white;
+}
+
+.caption h1{
+	font-size: 5rem;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: .5rem;
+}
+
+.caption h3{
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1rem;
+}
+
+.caption .container{
+
+}
+.home-btn{
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	display: inline-block;
+	background: #228B22;
+	padding:10px 30px;
+	margin-top: 25px;
+	border-radius: 50px;
+	width: 180px;
+}
+
+.home-btn:hover{
+	background-color: #1ebba3;
+}
+/*+++++++++End Video styles+++++++++++*/
+
+
+/*.join-section{
+	background-image: url(images/Hiking.jpg);	
+}
+*/
+/*.offset {
+	/*padding: 60px 0px;
+	margin-top: 50px;
+}*/
+
+
+/*===============Tails styles===================*/
+#trails{
+	padding: 60px 0px;
+}
+#trails h2{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+#trails img{
+	width:90%;
+}
+
+#trails .trails-right{
+	/*margin-top: 90px;*/
+}
+
+.trail-btn{
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	display: inline-block;
+	background: #228B22;
+	padding:10px 30px;
+	margin-top: 25px;
+	border-radius: 50px;
+	width: 180px;
+}
+
+.trail-btn:hover{
+	background-color: #1ebba3;
+}
+a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+/*===============End trails styles===================*/
+
+
+
+
+/*===============Join styles===================*/
+.join-section{
+	background: url("../images/join.jpg") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height:500px;
+	background-attachment: fixed;
+	padding-top: 10%;
+}
+
+.join-highlights{
+	padding:70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color:#fff;
+}
+
+.join-btn{
+	width:120px;
+	padding:8px 0;
+	outline: none !important;
+	border: 2px solid #228B22;
+	border-radius:50px;
+	background:transparent;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.join-btn:hover{
+	background-color: #1ebba3;
+}
+
+.register-btn{
+	width:120px;
+	padding:8px 0;
+	outline: none !important;
+	border: 1px solid #228B22;
+	border-radius:50px;
+	background-color:#1ebba3 ;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.register-btn:hover{
+	background-color: red;
+}
+
+.alert{
+  display:none;
+}
+/*===============End join styles===================*/
+
+
+
+
+/*===============Review styles===================*/
+
+#reviews{
+	padding: 60px 0px;
+}
+#reviews .container-fluid{
+	padding:50px;
+	/*background-color: #C0C0BA;*/
+	/*background: rgba(128,128,128, 0.7)*/
+	background: linear-gradient(to right, black, rgba(0,0,0,0.5));
+
+}
+
+/*.heading-underline{
+	width:3rem;
+	height: .2rem;
+	background-color:#1ebba3;
+	margin: 10px auto;
+}*/
+
+.col-md-12 h2{
+	padding-bottom: 20px;
+	letter-spacing: .2rem;
+	border-bottom: 2px solid;
+	border-color: #1ebba3;
+	font-size: 3rem;
+	font-weight: 300px;
+}
+
+.carousel-inner{
+	padding-top: 15px;
+}
+
+.carousel-inner .carousel-item .img-box{
+	width:250px;
+	height: 250px;
+}
+
+.carousel-inner .carousel-item .img-box img{
+	width:250px;
+	height: 250px;
+}
+
+/*.carousel-control-prev{
+	left: -100px;
+}
+
+.carousel-control-next{
+	right: -100px;
+}*/
+
+
+
+blockquote svg.svg-inline--fa{
+	color:#1ebba3;
+	margin: .3rem;
+}
+
+
+.list-inline svg.svg-inline--fa{
+	color:#1ebba3;
+	margin: .3rem;
+}
+
+.form-group svg.svg-inline--fa{
+	color:#1ebba3;
+	margin: .3rem;
+}
+
+/*===============End of review styles===================*/
+
+
+
+/*===============About styles===================*/
+.about-background{
+	background: url("../images/trail2.jpg") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	/*height:600px;*/
+	background-attachment: fixed;
+}
+
+.overlay{
+	/*position: absolute;*/
+	background-color:rgba(0,0,0,0.7);
+	height: 100%;
+}
+
+.overlay .container{
+	padding-top: 70px;
+}
+
+.about-text h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-size: 4rem;
+	font-weight: 500px;
+}
+
+.about-text{
+	padding:30px 0;
+}
+
+.about-img{
+	padding:40px 0;
+	/*width:500px;
+	height: 400px;*/
+	transform: skew(10deg);
+}
+
+/*===============End of about styles===================*/
+
+
+
+/*===============Team styles===================*/
+
+#team{
+	padding-bottom: 50px ;
+}
+
+.team-title h2{
+	padding-bottom: 20px;
+	letter-spacing: .2rem;
+	border-bottom: 2px solid;
+	border-color: #1ebba3;
+	font-size: 3rem;
+	font-weight: 500px;
+}
+
+#team .row{
+	padding-top: 20px;
+}
+
+.back-title{
+	padding-top: 50px;
+}
+
+.list-inline{
+	padding-top: 30px;
+}
+
+#team .card{
+	border:none;
+	background: #ffffff;
+	-webkit-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.image-flip:hover .backside, 
+.image-flip.hover .backside{
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	border-radius: .25rem;
+}
+
+.image-flip:hover .frontside, 
+.image-flip.hover .frontside{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	border-radius: 25rem;
+}
+
+.main-flip{
+	-webkit-transition:1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition:1s;
+	-ms-transition:1s;
+	-moz-transform: perspective(1000px);
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transition:1s;
+	transform-style: preserve-3d;
+	position:relative;
+}
+
+.frontside{
+	position:relative;
+	-webkit-transform:rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	z-index: 2;
+	margin-bottom: 30px;
+}
+
+.backside{
+	position:absolute;
+	top: 0;
+	left: 0;
+	background:white;
+	-webkit-transform:rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	-webkit-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside{
+	-webkit-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	backface-visibility: hidden;
+	-webkit-transition:1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition:1s;
+	-moz-transform-style: preserve-3d;
+	-o-transition:1s;
+	-o-transform-style: preserve-3d;
+	-ms-transition:1s;
+	-ms-transform-style: preserve-3d;
+	transform: 1s;
+	transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card{
+	min-height: 400px;
+} 
+
+.card-img-top{
+
+	height: 200px;
+	overflow: hidden;
+}
+
+.card-img-top img{
+	width:;
+}
+/*===============End of Team styles===================*/
+
+
+/*===============Contact styles===================*/
+#contact{
+	padding:70px 10px;
+}
+
+.google-map{
+	padding: 0 50px;
+}
+
+.contact-form{
+	padding-top: 30px;
+}
+
+.contact-title h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-size: 4rem;
+	font-weight: 500px;
+}
+
+.contact-title h5{
+	font-size: 1rem;
+	/*font-weight: 500px;*/
+}
+
+.contact-btn{
+	width:500px;
+	padding:8px 0px;
+	outline: none !important;
+	border: 1px solid #228B22;
+	border-radius:50px;
+	background-color:#228B22 ;
+	color: #fff;
+	margin-top: 10px;
+}
+
+#contactBtn{
+	padding-top: 10px;
+}
+
+.contact-btn:hover{
+	background-color: red;
+}
+.no-border{
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	box-shadow: none !important;
+}
+
+.input-spacing{
+	padding-top: 50px !important;
+}
+
+.info-spacing{
+	padding-top: 20px;
+}
+
+/*===============End of contact styles===================*/
+
+
+
+
+/*===============Footer styles===================*/
+.foot{
+	padding: 100px 0;
+	background-color: #080d17;
+	overflow: hidden;
+}
+
+.foot-note{
+	padding-top: 30px;
+	font-size:16px;
+	color:#fff;
+	font-weight:300px;
+}
+
+/*===============End of foot styles===================*/
+
+
+
+
+
+/*This applies different styles for different media types/devices*/
+@media (max-width: 768px){
+.caption h1{
+	font-size: 1.4rem;
+	letter-spacing: .15rem;
+	padding-bottom: .5rem;
+}
+
+.caption h3{
+	font-size: 1.1rem;
+	padding-bottom: 1.2rem;
+}
+
+.btn-lg{
+	
+	font-size: 1rem;
+	padding: .1rem 1rem;
+}
+
+.carousel-indicators{
+	top:520px;
+}
+
+.about-background{
+	height:600px;
+}
+
+.about-img{	
+	width:500px;
+	height: 400px;
+}
+
+}
+
+@media (min-width: 576px){
+.carousel-indicators{
+	top:450px;
+}
+
+.about-background{
+	
+	height:700px;
+}
+
+/*.about-img img{	
+	width:300px;
+	height: 200px;
+	padding:50px 5px;
+}*/
+
+}
+
+@media (max-width: 576px){
+	.carousel-indicators{
+	top:480px;
+}
+
+.about-background{
+
+	height:900px;
+}
+
+.about-img img{	
+	width:400px;
+	height: 300px;
+	padding:0px 20px;
+}
+
+}
+
+@media(min-width:768px){
+	.carousel-indicators{
+	top:270px;
+}
+
+.about-background{
+	height:600px;
+}
+}
