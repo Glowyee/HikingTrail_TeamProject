@@ -14,9 +14,10 @@ header .bg-img{
 .textOverImage {
   position: absolute;
   left: 5%;
+  top: 11%;
   background: rgba(0,0,0, 0.6);
   color: white;
-  margin-top: 110px;
+  margin-top: 10px;
   padding: 10px;
   border-radius: 30px;
 
@@ -49,6 +50,10 @@ header .bg-img{
   width: 100%;
   display: inline-grid;
   height: 40%;
+}
+
+.wrapper .box .information {
+  padding-top: 30px;
 }
 
 .wrapper .box img {
