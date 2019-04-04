@@ -259,7 +259,7 @@ background:rgba(0,0,0,0.6);
 transform:translatey(-100px);
 -webkit-transition:all .2s ease-in-out;
 transition:all .2s ease-in-out;
-padding:50px;
+padding:15px;
 }
 
 .hovereffect:hover img {
