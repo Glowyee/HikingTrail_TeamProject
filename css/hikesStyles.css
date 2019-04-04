@@ -14,9 +14,9 @@ header .bg-img{
 .textOverImage {
   position: absolute;
   left: 5%;
-  background: rgba(0,0,0, 0.4);
+  background: rgba(0,0,0, 0.6);
   color: white;
-  margin-top: 80px;
+  margin-top: 110px;
   padding: 10px;
   border-radius: 30px;
 
