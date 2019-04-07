@@ -1,66 +1,125 @@
 .container {
-
+  align-items: flex-end;
 }
 
-header .bg-img{
+/*+++++++++Navigation styles+++++++++++*/
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+}
+
+.bg-dark{
+	background:transparent!important;
+}
+
+.bg-dark.scrolled{
+	background-color: rgba(0,0,0,0.6) !important;
+}
+
+.navbar-brand img{
+	height:2rem;
+	padding-left: 20px;
+}
+
+.navbar-nav li{
+	padding-right: 1rem;
+}
+
+.navbar-nav{
+	padding-right: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+		color:#1ebba3;
+}
+
+/*+++++++++End navigation styles+++++++++++*/
+
+/*+++++++++Landing page styles+++++++++++*/
+
+.image-background #image{
   background-image: url("../img/hikesTopImage.jpg");
   background-size: cover;
   background-position: center center;
   min-height: 400px;
-
 }
 
-/* Bottom right text */
-.textOverImage {
-  position: absolute;
-  left: 5%;
-  top: 11%;
+.caption{
+	position: absolute;
+	top: 12%;
+  left: 3%;
+	min-width: 200px;
+  max-width: 650px;
+	color: white;
+}
+
+.background-color {
   background: rgba(0,0,0, 0.6);
-  color: white;
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 30px;
-
+  margin-right: 0;
+  border-radius: 40px;
+  padding-bottom: 10px;
 }
 
-.textOverImage ul {
-  padding: 0;
+.caption h1{
+	font-size: 4.8rem;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-shadow: .1rem .1rem .8rem black;
+  padding-left: 15px;
+  margin-bottom: 30px;
+  display: inline;
 }
 
-.textOverImage h1 {
-  font-size: 65px;
-  text-align: center;;
+.caption ul {
+  padding-left: 20px;
 }
 
-.textOverImage li {
- list-style-type: none;
- font-size: 18px;
- padding-left: 30px;
- display: inline-grid;
- text-align: center;
-
+.caption li {
+  display: inline-block;
+  padding-right: 10px;
 }
 
-#link {
-  color: white;
+.hike-btn{
+	color:#fff;
+	text-transform: uppercase;
+  text-align: left;
+	font-size: 20px;
+	display: inline-block;
+	background: #228B22;
+	padding: 3px 10px;
+	margin-top: 5px;
+	border-radius: 40px;
+	width: 180px;
 }
 
-.wrapper {
+/*+++++++++End landing page styles+++++++++++*/
+
+/*+++++++++Information section styles+++++++++++*/
+.informationSection {
   padding-top: 10px;
   width: 100%;
   display: inline-grid;
   height: 40%;
 }
 
-.wrapper .box .information {
+.informationSection .infoBox .information {
   padding-top: 30px;
 }
 
-.wrapper .box img {
+.informationSection img {
   max-width: 100%;
 }
 
-.wrapper .box .weather {
+.informationSection .infoBox .weather {
   margin-bottom: 20px;
 }
 
@@ -73,20 +132,20 @@ header .bg-img{
 }
 
 @media screen and (max-width: 650px) {
-  .wrapper {
+  .informationSection {
     display: inline-block;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .wrapper {
+  .informationSection {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 0;
     font-size: 16px;
     padding-top: 15px;
   }
-  .wrapper .box img {
+  .informationSection .box img {
     padding-bottom: 5px;
   }
   }
@@ -101,8 +160,4 @@ header .bg-img{
   border-radius: 4px;
   padding: 5px;
 }
-
-footer {
-  background-color:#c1946a;
-  color: white;
-}
+/*+++++++++Information section styles+++++++++++*/

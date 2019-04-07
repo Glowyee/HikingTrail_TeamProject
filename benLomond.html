@@ -1,87 +1,105 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="css/hikesStyles.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Hiking Trail</title>
-  </head>
-  <body>
-    <header>
-      <!-- Navigation section -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-          <a class="navbar-brand" href="#">
-            <img src="images/Hike.jpg">
-            Hikes
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="css/hikesStyles.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Hiking Trail</title>
+</head>
+<body>
 
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item ">
-                <a class="nav-link" href="home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Hikes <span class="sr-only">(current)</span>
-                </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="theCobbler.html">The Cobbler</a>
-                    <a class="dropdown-item" href="benNevis.html">Ben Nevis</a>
-                    <a class="dropdown-item" href="theFairyPools.html">The Fairy Pools</a>
-                    <a class="dropdown-item" href="benLomond.html">Ben Lomond</a>
-                  </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#join">Join</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#reviews">Reviews</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
 
-        <div class="bg-img">
-          <div class="textOverImage">
-            <h1> Ben Lomond </h1>
+<!--Start Home Section -->
+<div id ="home">
+<!-- Navigation section -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<a class="navbar-brand" href="#">
+  <img src="images/Hike.jpg">
+    Hikes
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hikes <span class="sr-only">(current)</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="theCobbler.html">The Cobbler</a>
+          <a class="dropdown-item" href="benNevis.html">Ben Nevis</a>
+          <a class="dropdown-item" href="theFairyPools.html">The Fairy Pools</a>
+          <a class="dropdown-item" href="benLomond.html">Ben Lomond</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#join">Join</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#reviews">Reviews</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#team">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- End of Navigation -->
+
+<!-- Starting Landing page section -->
+<div class="image-background">
+  <div class="image-wrap">
+    <div id="image">
+    </div>
+  </div>
+
+<!--overlay text-->
+  <div class="caption ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <div class = "background-color">
+            <h1>Ben Lomond</h1>
             <ul>
-                <li> <i class="fas fa-hiking"> </i> 974m </li>
-                <li> <i class="fas fa-route"> </i> 12km </li>
-                <li> <i class="fas fa-history"> </i> 5-8 hours </li>
-                <li> <i class="fas fa-exclamation-triangle"> </i> <a id="link" href="#" data-toggle="popover" color="white" data-content="Recommended for people
-                  in good/moderate hiking condition."> Moderate </a> </li>
-                <li> <i class="fas fa-map-marker-alt"> </i> NS359986 </li>
+              <li> <i class="fas fa-hiking"> </i> 974m </li>
+              <li> <i class="fas fa-route"> </i> 12km </li>
+              <li> <i class="fas fa-history"> </i> 5-8 hours </li>
+              <li> <i class="fas fa-exclamation-triangle"> </i> Moderate </li>
+              <li> <i class="fas fa-map-marker-alt"> </i> NS359986 </li>
             </ul>
           </div>
-
+          <a class="hike-btn" href="#trails"> REQUEST HIKE</a>
         </div>
 
-    </header>
+        </div>
+      </div>
+    </div>
+<!--End landing page section-->
+</div>
+<!-- end Home Section -->
 
-    <div class="container">
-      <div class="wrapper">
-        <div class="box">
-          <div class="information">
-            <h4> General information </h4>
-            <p> Ben Lomond is one of the most popular hikes in the UK. It’s a
+<div class="container">
+  <div class="informationSection">
+    <div class="infoBox">
+      <div class="information">
+        <h4> General information </h4>
+        <p> Ben Lomond is one of the most popular hikes in the UK. It’s a
               relatively challenging route with a spectacular view of other
               Munros on one side and of Loch Lomond on the other side. There
               are two routes which can be taken in order to hike it. They are
@@ -89,104 +107,105 @@
               with another steep ascent to the peak. Generally, people ascend to
               the peak on one of the routes and descend on the other route. Both
               routes take you to the starting point.
-            </p>
+        </p>
 
-            <h4> Terrain </h4>
-            <p> While most of the path is well defined, some parts are narrow
+        <h4> Terrain </h4>
+        <p> While most of the path is well defined, some parts are narrow
               and rocky.
-            </p>
+        </p>
 
-            <h4> Getting there </h4>
-            <p> Unfortunately the way to get there is by car. Alternatively,
+        <h4> Getting there </h4>
+        <p> Unfortunately the way to get there is by car. Alternatively,
               you could walk or cycle from Balmaha. Keep in mind that walking
               to the starting point from Balmaha takes approximately 2 hours 30
               minutes. The starting point is the Ben Lomond car park.
-            </p>
+        </p>
+
+      </div>
+    </div>
 
 
-          </div>
-        </div>
+    <div class = "infoBox">
 
-
-        <div class = "box">
-
-          <div class="weather">
-            <a class="weatherwidget-io" href="https://forecast7.com/en/56d09n4d54/balmaha/" data-label_1="Ben Lomond" data-label_2="Current Weather" data-mode="Current" data-theme="original" data-basecolor="#ffffff" data-shadow="#ffffff" data-accent="#ffffff" data-textcolor="" >Ben Lomond Current Weather</a>
+      <div class="weather">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/56d09n4d54/balmaha/" data-label_1="Ben Lomond" data-label_2="Current Weather" data-mode="Current" data-theme="original" data-basecolor="#ffffff" data-shadow="#ffffff" data-accent="#ffffff" data-textcolor="" >Ben Lomond Current Weather</a>
               <script>
                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
               </script>
+      </div>
+
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block" src="./img/benLomond1.jpg">
           </div>
-
-
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block" src="./img/benLomond1.jpg">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block" src="./img/benLomond2.jpg">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block" src="./img/benLomond3.jpg">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          <div class="carousel-item">
+            <img class="d-block" src="./img/benLomond2.jpg">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block" src="./img/benLomond3.jpg">
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="container">
-      <div class="route">
+  <div class="container">
+    <div class="route">
         <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d20076.936174032984!2d-4.654604570230227!3d56.18017380378404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x4889002fc5a66f9d%3A0xafa7c87e921ace3!2sBen+Lomond+Car+Park%2C+Stirling%2C+Glasgow!3m2!1d56.1519863!2d-4.6422944!4m5!1s0x4888fe1e792a49fd%3A0x1d0c681aff302500!2sBen+Lomond%2C+Stirling+FK8+3TR!3m2!1d56.188117999999996!2d-4.6262256!5e1!3m2!1sen!2suk!4v1554225619269!5m2!1sen!2suk" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-    </div>
+  </div>
 
-    <!-- begin wwww.htmlcommentbox.com -->
-    <div class="container">
+  <!-- begin wwww.htmlcommentbox.com -->
+  <div class="container">
       <!-- begin wwww.htmlcommentbox.com -->
       <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
       <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
       <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1554129510091");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
-    </div>
-<!-- end www.htmlcommentbox.com -->
+      <!-- end www.htmlcommentbox.com -->
+  </div>
+    <!-- end www.htmlcommentbox.com -->
 
-<footer class="foot">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p class="text-white">
-          POWERED BY
-        </p>
-        <img src="images/CFG.png">
-        <div class="foot-note">
-          <p class="text-uppercase">
-            © Copyright 2019 - All rights reserved hiking-trail.com
-          </p>
-          <p >
-            Made with love Code First Girls 2019 Set
-          </p>
+    <footer class="foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="text-white">
+              POWERED BY
+            </p>
+            <img src="images/CFG.png">
+            <div class="foot-note">
+              <p class="text-uppercase">
+                © Copyright 2019 - All rights reserved hiking-trail.com
+              </p>
+              <p >
+                Made with love Code First Girls 2019 Set
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 
-<!-- Necessary for Bootstrap's javascript plugins-->
-<script src="js/hikes.js"></script>
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/custom.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-<script src="js/popper.js"></script>
+    <!-- Necessary for Bootstrap's javascript plugins-->
+    <script src="js/hikes.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <script src="js/popper.js"></script>
 
 </body>
+
+
 </html>
