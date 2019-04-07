@@ -84,12 +84,67 @@
               <li> <i class="fas fa-map-marker-alt"> </i> NG424258 </li>
             </ul>
           </div>
-          <a class="hike-btn" href="#trails"> REQUEST HIKE</a>
+          <a class="hike-btn" class="requestHike-btn" data-toggle="modal" data-target=".bd-example-modal-lg" href="#trails"> REQUEST HIKE</a>
         </div>
 
         </div>
       </div>
     </div>
+
+    <!--Modal Join-->
+   <div class="modal fade bd-example-modal-lg" id="my-modal" tabindex="-1"role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+         <!--Modal Header-->
+          <div class="modal-header">
+            <h4 class="modal-title">Hike this mountain with other people! Fill in your details below:</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!--Modal body-->
+          <div class="modal-body">
+            <form id="target">
+               <div class=" form-row">
+                 <div class="form-group col-md-2 text-center">
+                   <i class="far fa-user fa-2x"></i>
+                 </div>
+                 <div class="form-group col-md-10">
+                   <input type="text" class="form-control no-border" placeholder="Full name" required>
+                 </div>
+             </div>
+              <div class=" form-row">
+                 <div class="form-group col-md-2 text-center">
+                   <i class="far fa-envelope fa-2x"></i>
+                 </div>
+                 <div class="form-group col-md-10">
+                   <input type="text" class="form-control no-border" placeholder="name@example.com" required>
+                 </div>
+             </div>
+              <div class=" form-row">
+                 <div class="form-group col-md-2 text-center">
+                   <i class="fas fa-phone fa-2x"></i>
+                 </div>
+                 <div class="form-group col-md-10">
+                   <input type="text" class="form-control no-border" placeholder="+234 652 751 9724" required>
+                 </div>
+             </div>
+             <div class="text-center">
+                 <button type="submit" class="register-btn">Hike</button>
+               </div>
+            </form>
+          </div>
+          <div class="alert alert-success alert-dismissable">
+                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                     <i class="fas fa-thumbs-up"></i>
+                    Success! message sent successfully.
+           </div>
+          <!--Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+       </div>
+     </div>
+   </div>
+  <!-- end join Section -->
 <!--End landing page section-->
 </div>
 <!-- end Home Section -->
@@ -163,7 +218,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m27!1m11!1m3!1d103464.92705482751!2d-7.501643856754055!3d57.01355207159868!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x488c3905379f3d4d%3A0x17d8cf6b9e6bd788!2sFairy+Pools+Car+Park%2C+Glenbrittle%2C+Isle+of+Skye!3m2!1d57.250466499999995!2d-6.2725228!4m5!1s0x488c396da115dd11%3A0x7ecbb9919bacf17d!2sFairy+Pools%2C+Glenbrittle%2C+Isle+of+Skye!3m2!1d57.250343099999995!2d-6.2582954!5e1!3m2!1sen!2suk!4v1554224263496!5m2!1sen!2suk" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
-  
+
   <!-- begin wwww.htmlcommentbox.com -->
   <div class="container">
       <!-- begin wwww.htmlcommentbox.com -->
