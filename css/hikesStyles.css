@@ -65,7 +65,7 @@
 .background-color {
   background: rgba(0,0,0, 0.6);
   margin-right: 0;
-  border-radius: 40px;
+  border-radius: 30px;
   padding-bottom: 10px;
 }
 
@@ -75,8 +75,8 @@
 	letter-spacing: .2rem;
 	text-shadow: .1rem .1rem .8rem black;
   padding-left: 15px;
-  margin-bottom: 30px;
-  display: inline;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .caption ul {
@@ -97,9 +97,45 @@
 	background: #228B22;
 	padding: 3px 10px;
 	margin-top: 5px;
+  margin-left: 30px;
 	border-radius: 40px;
 	width: 180px;
+  position: absolute;
 }
+
+.star-rating {
+  padding-top: 5px;
+  padding-left: 90px;
+  margin-left: 200px;
+  direction: rtl;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: #bbb;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+}
+
+label:hover {
+  color: #f2b600;
+
+}
+
+label:hover ~ label {
+  color: #f2b600;
+
+}
+
+input[type="radio"]:checked ~ label {
+  color: #f2b600;
+
+}
+
 
 /*+++++++++End landing page styles+++++++++++*/
 
