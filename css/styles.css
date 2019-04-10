@@ -3,6 +3,8 @@ body{
 	font-family: 'Roboto Slab', serif;
 }
 
+
+
 /*+++++++++Navigation styles+++++++++++*/
 .navbar{
 	text-transform: uppercase;
@@ -460,9 +462,9 @@ blockquote svg.svg-inline--fa{
 
 .about-text h2{
 	text-transform: uppercase;
-	margin-bottom: 20px;
-	font-size: 4rem;
-	font-weight: 500px;
+	margin-bottom: 10px;
+	font-size: 3rem;
+	font-weight: 300px;
 }
 
 .about-text{

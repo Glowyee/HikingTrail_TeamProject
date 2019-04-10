@@ -24,7 +24,7 @@
 }
 
 .navbar-nav li{
-	padding-right: 1rem;
+	padding-right: 3rem;
 }
 
 .navbar-nav{
@@ -47,7 +47,7 @@
 /*+++++++++Landing page styles+++++++++++*/
 
 .image-background #image{
-  background-image: url("../img/hikesTopImage.jpg");
+  background-image: url("../images/hikesTopImage.jpg");
   background-size: cover;
   background-position: center center;
   min-height: 400px;
