@@ -580,11 +580,6 @@ blockquote svg.svg-inline--fa{
 }
 
 
-.frontside .card-img-top{
-	max-height: 400px;
-}
-
-
 .collapse {
 	background-color: rgba(0,0,0,0.8);
 	margin-left: -10px;
@@ -605,7 +600,6 @@ blockquote svg.svg-inline--fa{
 .carousel-indicators{
 	top:520px;
 }
-
 
 }
 
@@ -812,11 +806,6 @@ blockquote svg.svg-inline--fa{
 	-ms-transform-style: preserve-3d;
 	transform: 1s;
 	transform-style: preserve-3d;
-}
-
-.frontside .card,
-.backside .card{
-	min-height: 400px;
 }
 
 .frontside .card-img-top{
