@@ -98,7 +98,7 @@ sr.reveal('.navbar', {
 sr.reveal('.trails-left', {
 	duration:2000,
 	origin:'top',
-	distance:'300px'
+	distance:'200px'
 });
 
 sr.reveal('.trails-right', {
