@@ -635,6 +635,11 @@ blockquote svg.svg-inline--fa{
 	top:85%;
 }
 
+.frontside .card,
+.backside .card{
+	height: 500px;
+}
+
 .about-text h2{
 	text-transform: uppercase;
 	margin-bottom: 10px;
