@@ -911,6 +911,7 @@ blockquote svg.svg-inline--fa{
 /*===============End of contact styles===================*/
 
 /*===============Start of Hike pages styles===================*/
+
 /*+++++++++Landing page styles+++++++++++*/
 
 .image-background #image{
@@ -920,12 +921,11 @@ blockquote svg.svg-inline--fa{
   min-height: 400px;
 }
 
-.caption{
+.caption-hikes{
 	position: absolute;
 	top: 12%;
   left: 3%;
-	min-width: 200px;
-  max-width: 660px;
+	width: 100%;
 	color: white;
 }
 
@@ -934,10 +934,9 @@ blockquote svg.svg-inline--fa{
   margin-right: 10px;;
   border-radius: 30px;
   padding-bottom: 10px;
-  position: relative;
 }
 
-.caption h1{
+.caption-hikes h1{
 	font-size: 4.8rem;
 	font-weight: 700;
 	letter-spacing: .2rem;
@@ -947,11 +946,12 @@ blockquote svg.svg-inline--fa{
   text-align: center;
 }
 
-.caption ul {
+.caption-hikes ul {
   padding-left: 20px;
+	text-align: center;
 }
 
-.caption li {
+.caption-hikes li {
   display: inline-block;
   padding-right: 10px;
 }
@@ -973,7 +973,7 @@ blockquote svg.svg-inline--fa{
 
 .star-rating {
   padding-top: 5px;
-  padding-left: 90px;
+  padding-left: 120px;
   margin-left: 200px;
   direction: rtl;
 }
@@ -1073,4 +1073,9 @@ input[type="radio"]:checked ~ label {
   border-radius: 4px;
   padding: 5px;
 }
+
+/*+++++++++End of information section styles+++++++++++*/
+
+
+
 /*===============End of Hike pages styles===================*/
