@@ -612,7 +612,12 @@ blockquote svg.svg-inline--fa{
 
 .frontside .card,
 .backside .card{
-	height: 400px;
+	height: 500px;
+}
+
+.frontside .card-img-top{
+	overflow: hidden;
+	height: 160px;
 }
 
 .carousel-indicators{
@@ -637,7 +642,11 @@ blockquote svg.svg-inline--fa{
 
 .frontside .card,
 .backside .card{
-	height: 500px;
+	max-width: 500px;
+}
+
+.backside .card {
+	height: 570px;
 }
 
 .about-text h2{
@@ -666,6 +675,12 @@ blockquote svg.svg-inline--fa{
 	top:270px;
 }
 
+.frontside .card,
+.backside .card{
+	max-height: 650px;
+	max-width: 620px;
+}
+
 .about-background{
 	height:600px;
 }
@@ -687,12 +702,13 @@ blockquote svg.svg-inline--fa{
 	background-size: cover;
 	height:550px;
 	background-attachment: fixed;
-	padding-top: 10%;
+	padding-top: 13%;
+	padding-right: 2%;
 }
 
 .about-us-text {
-	position: static;
-	padding:5%;
+	position: relative;
+	padding:2%;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 20px;
 	color: white;
@@ -813,11 +829,6 @@ blockquote svg.svg-inline--fa{
 	transform-style: preserve-3d;
 }
 
-.frontside .card-img-top{
-	width: 100%;
-	height: 40%;
-	overflow: hidden;
-}
 
 /*===============End of Team styles===================*/
 
