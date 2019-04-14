@@ -11,6 +11,8 @@ body{
 	font-weight: 700;
 	font-size: .9rem;
 	letter-spacing: .1rem;
+	padding-top:0;
+	padding-bottom: 0;
 }
 
 .bg-dark{
@@ -457,7 +459,7 @@ blockquote svg.svg-inline--fa{
 }
 
 .overlay .container{
-	padding-top: 70px;
+	padding-top: 150px;
 }
 
 .about-text h2{
@@ -558,6 +560,11 @@ blockquote svg.svg-inline--fa{
 	font-weight:300px;
 }
 
+.logo-footer {
+	width: 15%;
+	height: 15%;
+}
+
 /*===============End of foot styles===================*/
 
 
@@ -570,6 +577,12 @@ blockquote svg.svg-inline--fa{
 	font-size: 1.4rem;
 	letter-spacing: .15rem;
 	padding-bottom: .5rem;
+}
+
+.collapse {
+	background-color: rgba(0,0,0,0.8);
+	margin-left: -10px;
+	padding-left: 10px;
 }
 
 .caption h3{
@@ -587,54 +600,58 @@ blockquote svg.svg-inline--fa{
 	top:520px;
 }
 
-.about-background{
-	height:600px;
-}
-
-.about-img{
-	width:500px;
-	height: 400px;
-}
 
 }
 
 @media (min-width: 576px){
+.caption h3{
+	font-size: 1.5rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1rem;
+}
+
 .carousel-indicators{
 	top:450px;
 }
 
 .about-background{
-
 	height:700px;
 }
 
-/*.about-img img{
-	width:300px;
-	height: 200px;
-	padding:50px 5px;
-}*/
 
 }
 
-@media (max-width: 576px){
+@media (max-width: 567px){
 	.carousel-indicators{
 	top:480px;
 }
 
-.about-background{
-
-	height:900px;
+.icons{
+	top:85%;
 }
 
+.about-text h2{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 2rem;
+	font-weight: 300px;
+}
+
+.about-text{
+	padding:30px 0;
+	font-size: 1rem;
+}
+
+/*
 .about-img img{
-	width:400px;
-	height: 300px;
+	width:300px;
+	height: 200px;
 	padding:0px 20px;
 }
-
+*/
 }
 
-@media(min-width:768px){
+@media(min-width:567px){
 	.carousel-indicators{
 	top:270px;
 }
@@ -642,6 +659,13 @@ blockquote svg.svg-inline--fa{
 .about-background{
 	height:600px;
 }
+
+.about-text {
+	font-size: 1rem;
+}
+
+
+
 }
 
 /*===============Start of About us html page styles===================*/
