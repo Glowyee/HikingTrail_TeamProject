@@ -909,3 +909,168 @@ blockquote svg.svg-inline--fa{
 }
 
 /*===============End of contact styles===================*/
+
+/*===============Start of Hike pages styles===================*/
+/*+++++++++Landing page styles+++++++++++*/
+
+.image-background #image{
+  background-image: url("../images/hikesTopImage.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+}
+
+.caption{
+	position: absolute;
+	top: 12%;
+  left: 3%;
+	min-width: 200px;
+  max-width: 660px;
+	color: white;
+}
+
+.background-img {
+  background: rgba(0,0,0, 0.6);
+  margin-right: 10px;;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.caption h1{
+	font-size: 4.8rem;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-shadow: .1rem .1rem .8rem black;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.caption ul {
+  padding-left: 20px;
+}
+
+.caption li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.hike-btn{
+	color:#fff;
+	text-transform: uppercase;
+  text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	background: #228B22;
+	padding: 3px 10px;
+	margin-top: 5px;
+  margin-left: 40px;
+	border-radius: 40px;
+	width: 130px;
+  position: absolute;
+}
+
+.star-rating {
+  padding-top: 5px;
+  padding-left: 90px;
+  margin-left: 200px;
+  direction: rtl;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: #bbb;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+}
+
+label:hover {
+  color: #f2b600;
+
+}
+
+label:hover ~ label {
+  color: #f2b600;
+
+}
+
+input[type="radio"]:checked ~ label {
+  color: #f2b600;
+
+}
+
+
+/*+++++++++End landing page styles+++++++++++*/
+
+/*+++++++++Information section styles+++++++++++*/
+.informationSection {
+  padding-top: 10px;
+  width: 100%;
+  display: inline-grid;
+  height: 40%;
+}
+
+.informationSection .infoBox .information {
+  padding-top: 30px;
+}
+
+.informationSection img {
+  max-width: 100%;
+}
+
+.informationSection .infoBox .weather {
+  margin-bottom: 20px;
+}
+
+.route {
+  margin-top: 10px;
+}
+ .route iframe {
+  padding-top: 0px;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .informationSection {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .informationSection {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .informationSection .box img {
+    padding-bottom: 5px;
+  }
+  }
+
+  @media (max-width: 567px){
+  .star-rating {
+    padding-top: 5px;
+    padding-left: 90px;
+    margin-left: 160px;
+    direction: rtl;
+  }
+  }
+/*
+@media screen and (min-width: 1200px) {
+  .wrapper .box .information {
+    font-size: 18px;
+}
+*/
+.d-block {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+/*===============End of Hike pages styles===================*/
