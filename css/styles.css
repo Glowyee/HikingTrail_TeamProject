@@ -770,3 +770,26 @@ blockquote svg.svg-inline--fa{
 	height:600px;
 }
 }
+
+/*===============Start of About us html page styles===================*/
+
+
+.about-us-section{
+	background: url("../images/aboutPage.jpg") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height:550px;
+	background-attachment: fixed;
+	padding-top: 10%;
+}
+
+.about-us-text {
+	padding:5%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.about-us-text h2 {
+	text-align: center;
+	padding-bottom: 10px;
+}
