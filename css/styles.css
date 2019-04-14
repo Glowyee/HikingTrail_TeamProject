@@ -115,6 +115,7 @@ body{
 .video-background video{
 	min-height: 100%;
 	filter: opacity(60%);
+	background-size: cover;
 }
 
 
