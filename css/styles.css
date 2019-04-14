@@ -794,3 +794,80 @@ blockquote svg.svg-inline--fa{
 	width:;
 }
 /*===============End of Team styles===================*/
+
+/*===============End of About us html page styles===================*/
+
+/*===============Start of About us html page styles===================*/
+
+/*===============Contact styles===================*/
+
+.contact-page-section {
+	background-image: url("../images/contactUsBackground.jpg")
+}
+
+#contact-page{
+	padding:70px 10px;
+}
+
+.contact-page-text {
+	margin-top: 40px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.google-map{
+	padding: 0 50px;
+}
+
+.contact-page-form{
+	padding-top: 30px;
+}
+
+.contact-page-title h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-size: 4rem;
+	font-weight: 500px;
+}
+
+.contact-page-title h5{
+	font-size: 1rem;
+	/*font-weight: 500px;*/
+}
+
+.contact-page-btn{
+	width:500px;
+	padding:8px 0px;
+	outline: none !important;
+	border: 1px solid #228B22;
+	border-radius:50px;
+	background-color:#228B22 ;
+	color: #fff;
+	margin-top: 10px;
+}
+
+#contactBtn{
+	padding-top: 10px;
+}
+
+.contact-btn:hover{
+	background-color: red;
+}
+.no-border{
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	box-shadow: none !important;
+}
+
+.input-spacing{
+	padding-top: 50px !important;
+}
+
+.info-spacing{
+	padding-top: 20px;
+}
+
+/*===============End of contact styles===================*/
