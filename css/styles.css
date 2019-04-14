@@ -802,7 +802,8 @@ blockquote svg.svg-inline--fa{
 /*===============Contact styles===================*/
 
 .contact-page-section {
-	background-image: url("../images/contactUsBackground.jpg")
+	background-image: url("../images/contactUsBackground.jpg");
+	background-size: cover;
 }
 
 #contact-page{
