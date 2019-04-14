@@ -481,133 +481,6 @@ blockquote svg.svg-inline--fa{
 /*===============End of about styles===================*/
 
 
-
-/*===============Team styles===================*/
-
-#team{
-	padding-bottom: 50px ;
-}
-
-.team-title h2{
-	padding-bottom: 20px;
-	letter-spacing: .2rem;
-	border-bottom: 2px solid;
-	border-color: #1ebba3;
-	font-size: 3rem;
-	font-weight: 500px;
-}
-
-#team .row{
-	padding-top: 20px;
-}
-
-.back-title{
-	padding-top: 50px;
-}
-
-.list-inline{
-	padding-top: 30px;
-}
-
-#team .card{
-	border:none;
-	background: #ffffff;
-	-webkit-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
-	-moz-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
-	box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
-}
-
-.image-flip:hover .backside,
-.image-flip.hover .backside{
-	-webkit-transform: rotateY(0deg);
-	-moz-transform: rotateY(0deg);
-	-o-transform: rotateY(0deg);
-	-ms-transform: rotateY(0deg);
-	transform: rotateY(0deg);
-	border-radius: .25rem;
-}
-
-.image-flip:hover .frontside,
-.image-flip.hover .frontside{
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-	-o-transform: rotateY(180deg);
-	-ms-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-	border-radius: 25rem;
-}
-
-.main-flip{
-	-webkit-transition:1s;
-	-webkit-transform-style: preserve-3d;
-	-moz-transition:1s;
-	-ms-transition:1s;
-	-moz-transform: perspective(1000px);
-	-moz-transform-style: preserve-3d;
-	-ms-transform-style: preserve-3d;
-	transition:1s;
-	transform-style: preserve-3d;
-	position:relative;
-}
-
-.frontside{
-	position:relative;
-	-webkit-transform:rotateY(0deg);
-	-ms-transform: rotateY(0deg);
-	z-index: 2;
-	margin-bottom: 30px;
-}
-
-.backside{
-	position:absolute;
-	top: 0;
-	left: 0;
-	background:white;
-	-webkit-transform:rotateY(-180deg);
-	-moz-transform: rotateY(-180deg);
-	-ms-transform: rotateY(-180deg);
-	-o-transform: rotateY(-180deg);
-	transform: rotateY(-180deg);
-	-webkit-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
-	-moz-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
-	box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
-}
-
-.frontside,
-.backside{
-	-webkit-backface-visibility:hidden;
-	-ms-backface-visibility:hidden;
-	-moz-backface-visibility:hidden;
-	backface-visibility: hidden;
-	-webkit-transition:1s;
-	-webkit-transform-style: preserve-3d;
-	-moz-transition:1s;
-	-moz-transform-style: preserve-3d;
-	-o-transition:1s;
-	-o-transform-style: preserve-3d;
-	-ms-transition:1s;
-	-ms-transform-style: preserve-3d;
-	transform: 1s;
-	transform-style: preserve-3d;
-}
-
-.frontside .card,
-.backside .card{
-	min-height: 400px;
-}
-
-.card-img-top{
-
-	height: 200px;
-	overflow: hidden;
-}
-
-.card-img-top img{
-	width:;
-}
-/*===============End of Team styles===================*/
-
-
 /*===============Contact styles===================*/
 #contact{
 	padding:70px 10px;
@@ -795,3 +668,129 @@ blockquote svg.svg-inline--fa{
 	text-align: center;
 	padding-bottom: 10px;
 }
+
+/*===============Team styles===================*/
+
+#team{
+	padding-bottom: 50px ;
+}
+
+.team-title h2{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	letter-spacing: .2rem;
+	border-bottom: 2px solid;
+	border-color: #1ebba3;
+	font-size: 3rem;
+	font-weight: 500px;
+}
+
+#team .row{
+	padding-top: 20px;
+}
+
+.back-title{
+	padding-top: 50px;
+}
+
+.list-inline{
+	padding-top: 30px;
+}
+
+#team .card{
+	border:none;
+	background: #ffffff;
+	-webkit-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside{
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	border-radius: 25rem;
+}
+
+.main-flip{
+	-webkit-transition:1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition:1s;
+	-ms-transition:1s;
+	-moz-transform: perspective(1000px);
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transition:1s;
+	transform-style: preserve-3d;
+	position:relative;
+}
+
+.frontside{
+	position:relative;
+	-webkit-transform:rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	z-index: 2;
+	margin-bottom: 30px;
+}
+
+.backside{
+	position:absolute;
+	top: 0;
+	left: 0;
+	background:white;
+	-webkit-transform:rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	-webkit-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow:5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside{
+	-webkit-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	backface-visibility: hidden;
+	-webkit-transition:1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition:1s;
+	-moz-transform-style: preserve-3d;
+	-o-transition:1s;
+	-o-transform-style: preserve-3d;
+	-ms-transition:1s;
+	-ms-transform-style: preserve-3d;
+	transform: 1s;
+	transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card{
+	min-height: 400px;
+}
+
+.card-img-top{
+
+	height: 200px;
+	overflow: hidden;
+}
+
+.card-img-top img{
+	width:;
+}
+/*===============End of Team styles===================*/
