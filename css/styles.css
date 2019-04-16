@@ -1035,6 +1035,8 @@ input[type="radio"]:checked ~ label {
   width: 100%;
 }
 
+
+
 @media screen and (max-width: 650px) {
   .informationSection {
     display: inline-block;
