@@ -520,123 +520,6 @@ blockquote svg.svg-inline--fa{
 
 /*=====================================End of foot styles===============================================*/
 
-
-
-
-
-/*===============This applies different styles for different media types/devices==================*/
-@media (max-width: 768px){
-.caption h1{
-	font-size: 1.4rem;
-	letter-spacing: .15rem;
-	padding-bottom: .5rem;
-}
-
-
-.collapse {
-	background-color: rgba(0,0,0,0.8);
-	margin-left: -10px;
-	padding-left: 10px;
-}
-
-.caption h3{
-	font-size: 1.1rem;
-	padding-bottom: 1.2rem;
-}
-
-.btn-lg{
-
-	font-size: 1rem;
-	padding: .1rem 1rem;
-}
-
-.carousel-indicators{
-	top:520px;
-}
-
-}
-
-@media (min-width: 576px){
-.caption h3{
-	font-size: 1.5rem;
-	text-shadow: .1rem .1rem .5rem black;
-	padding-bottom: 1rem;
-}
-
-.frontside .card,
-.backside .card{
-	height: 500px;
-}
-
-.frontside .card-img-top{
-	overflow: hidden;
-	height: 155px;
-}
-
-.carousel-indicators{
-	top:450px;
-}
-
-.about-background{
-	height:700px;
-}
-
-
-}
-
-@media (max-width: 567px){
-	.carousel-indicators{
-	top:480px;
-}
-
-.icons{
-	top:85%;
-}
-
-.frontside .card,
-.backside .card{
-	max-width: 500px;
-}
-
-.backside .card {
-	height: 570px;
-}
-
-.about-text h2{
-	text-transform: uppercase;
-	margin-bottom: 10px;
-	font-size: 2rem;
-	font-weight: 300px;
-}
-
-.about-text{
-	padding:30px 0;
-	font-size: 1rem;
-}
-
-}
-
-@media(min-width:567px){
-	.carousel-indicators{
-	top:270px;
-}
-
-.frontside .card,
-.backside .card{
-	max-height: 650px;
-	max-width: 620px;
-}
-
-.about-background{
-	height:600px;
-}
-
-.about-text {
-	font-size: 1rem;
-}
-
-}
-
 /*============================Start of About us html page styles==========================*/
 
 .about-us-section{
@@ -913,18 +796,18 @@ blockquote svg.svg-inline--fa{
 }
 
 .star-rating {
-  padding-top: 5px;
-  padding-left: 120px;
-  margin-left: 200px;
-  direction: rtl;
+	padding-top: 5px;
+	padding-left: 200px;
+	direction: rtl;
 }
+
 
 input[type="radio"] {
   display: none;
 }
 
 label {
-  color: #bbb;
+  color: #008000;
   font-size: 24px;
   cursor: pointer;
   transition: color .3s ease-in-out;
@@ -974,41 +857,147 @@ input[type="radio"]:checked ~ label {
   width: 100%;
 }
 
-@media screen and (max-width: 650px) {
-  .informationSection {
-    display: inline-block;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .informationSection {
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 0;
-    font-size: 16px;
-    padding-top: 15px;
-  }
-  .informationSection .box img {
-    padding-bottom: 5px;
-  }
- }
-
-  @media (max-width: 567px){
-  .star-rating {
-    padding-top: 5px;
-    padding-left: 90px;
-    margin-left: 160px;
-    direction: rtl;
-  }
- }
-
-.d-block {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-}
-
    /*===============================End of information section styles=============================*/
 
 
 /*=========================================End of Hike pages styles====================================*/
+
+
+/*===============This applies different styles for different media types/devices==================*/
+@media (max-width: 768px){
+.caption h1{
+	font-size: 1.4rem;
+	letter-spacing: .15rem;
+	padding-bottom: .5rem;
+}
+
+
+.collapse {
+	background-color: rgba(0,0,0,0.8);
+	margin-left: -10px;
+	padding-left: 10px;
+}
+
+.caption h3{
+	font-size: 1.1rem;
+	padding-bottom: 1.2rem;
+}
+
+.btn-lg{
+
+	font-size: 1rem;
+	padding: .1rem 1rem;
+}
+
+.carousel-indicators{
+	top:520px;
+}
+
+
+
+}
+
+@media (min-width: 576px){
+.caption h3{
+	font-size: 1.5rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1rem;
+}
+
+.frontside .card,
+.backside .card{
+	height: 500px;
+}
+
+.frontside .card-img-top{
+	overflow: hidden;
+	height: 155px;
+}
+
+.carousel-indicators{
+	top:450px;
+}
+
+.about-background{
+	height:700px;
+}
+
+
+
+
+}
+
+@media (max-width: 567px){
+	.carousel-indicators{
+	top:480px;
+}
+
+.icons{
+	top:85%;
+}
+
+.frontside .card,
+.backside .card{
+	max-width: 500px;
+}
+
+.backside .card {
+	height: 570px;
+}
+
+.about-text h2{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 2rem;
+	font-weight: 320px;
+}
+
+.about-text{
+	padding:30px 0;
+	font-size: 1rem;
+}
+
+.star-rating {
+	padding-top: 5px;
+	padding-left: 260px;
+	direction: rtl;
+}
+
+.informationSection {
+	display: inline-block;
+}
+
+
+}
+
+@media(min-width:567px){
+	.carousel-indicators{
+	top:270px;
+}
+
+.frontside .card,
+.backside .card{
+	max-height: 650px;
+	max-width: 620px;
+}
+
+.about-background{
+	height:600px;
+}
+
+.about-text {
+	font-size: 1rem;
+}
+
+.informationSection {
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 50px;
+	grid-row-gap: 0;
+	font-size: 16px;
+	padding-top: 15px;
+}
+.informationSection .box img {
+	padding-bottom: 5px;
+}
+
+}
