@@ -906,12 +906,11 @@ input[type="radio"]:checked ~ label {
 
 .frontside .card,
 .backside .card{
-	height: 500px;
+	height: 540px;
 }
 
 .frontside .card-img-top{
 	overflow: hidden;
-	height: 155px;
 }
 
 .carousel-indicators{
@@ -943,6 +942,7 @@ input[type="radio"]:checked ~ label {
 
 .backside .card {
 	height: 570px;
+	width: 100%;
 }
 
 .about-text h2{
