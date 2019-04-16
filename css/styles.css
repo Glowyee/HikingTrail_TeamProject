@@ -5,7 +5,7 @@ body{
 
 
 
-/*+++++++++Navigation styles+++++++++++*/
+/*==============================Navigation styles==============================*/
 .navbar{
 	text-transform: uppercase;
 	font-weight: 700;
@@ -47,9 +47,10 @@ body{
 		color:#1ebba3;
 }
 
-/*+++++++++End navigation styles+++++++++++*/
+/*==============================End navigation styles==============================*/
 
-/*============icons----------*/
+
+/*=================================icons=================================*/
 .icons{
 	top:60%;
 	left:0;
@@ -70,8 +71,6 @@ body{
 	padding-top: 6px;
 	margin-top: 5px;
 	color:#fff;
-	/*background-color: #000;*/
-
 }
 
 .facebook{
@@ -100,10 +99,10 @@ body{
 	transition: 1s;
 }
 
-/*============ end icons----------*/
+/*==========================================end icons=======================================*/
 
 
-/*+++++++++Video styles+++++++++++*/
+/*===========================================Video styles===================================*/
 .video-background {
 	position: relative;
 	width:100%;
@@ -111,14 +110,12 @@ body{
 	min-height: 100vh;
 	background-color: rgba(0, 0, 0, 1)!important;
 	overflow: hidden;
-	/*opacity: 0.5;*/
 }
 
 .video-background video{
 	min-height: 100%;
 	filter: opacity(60%);
 }
-
 
 .caption{
 	position: absolute;
@@ -159,20 +156,10 @@ body{
 .home-btn:hover{
 	background-color: #1ebba3;
 }
-/*+++++++++End Video styles+++++++++++*/
+/*==============================================End Video styles==================================*/
 
 
-/*.join-section{
-	background-image: url(images/Hiking.jpg);
-}
-*/
-/*.offset {
-	/*padding: 60px 0px;
-	margin-top: 50px;
-}*/
-
-
-/*===============Tails styles===================*/
+/*===============================================Tails styles=====================================*/
 #trails{
 	padding: 60px 0px;
 }
@@ -195,7 +182,6 @@ body{
 }
 
 #trails .trails-right{
-	/*margin-top: 90px;*/
 	padding-right: 0;
 	vertical-align: middle;
 }
@@ -310,12 +296,10 @@ a:hover{
 	color:#fff;
 }
 
-/*===============End trails styles===================*/
+/*======================================End trails styles====================================*/
 
 
-
-
-/*===============Join styles===================*/
+/*=========================================Join styles=======================================*/
 .join-section{
 	background: url("../images/join.jpg") no-repeat;
 	background-position: center center;
@@ -365,30 +349,19 @@ a:hover{
 .alert{
   display:none;
 }
-/*===============End join styles===================*/
+/*============================================End join styles===================================*/
 
 
-
-
-/*===============Review styles===================*/
+/*==============================================Review styles===================================*/
 
 #reviews{
 	padding: 60px 0px;
 }
+
 #reviews .container-fluid{
 	padding:50px;
-	/*background-color: #C0C0BA;*/
-	/*background: rgba(128,128,128, 0.7)*/
 	background: linear-gradient(to right, black, rgba(0,0,0,0.5));
-
 }
-
-/*.heading-underline{
-	width:3rem;
-	height: .2rem;
-	background-color:#1ebba3;
-	margin: 10px auto;
-}*/
 
 .col-md-12 h2{
 	padding-bottom: 20px;
@@ -413,16 +386,6 @@ a:hover{
 	height: 250px;
 }
 
-/*.carousel-control-prev{
-	left: -100px;
-}
-
-.carousel-control-next{
-	right: -100px;
-}*/
-
-
-
 blockquote svg.svg-inline--fa{
 	color:#1ebba3;
 	margin: .3rem;
@@ -439,21 +402,19 @@ blockquote svg.svg-inline--fa{
 	margin: .3rem;
 }
 
-/*===============End of review styles===================*/
+/*====================================End of review styles===========================================*/
 
 
+/*======================================About styles=================================================*/
 
-/*===============About styles===================*/
 .about-background{
 	background: url("../images/trail2.jpg") no-repeat;
 	background-position: center center;
 	background-size: cover;
-	/*height:600px;*/
 	background-attachment: fixed;
 }
 
 .overlay{
-	/*position: absolute;*/
 	background-color:rgba(0,0,0,0.7);
 	height: 100%;
 }
@@ -473,17 +434,11 @@ blockquote svg.svg-inline--fa{
 	padding:30px 0;
 }
 
-.about-img{
-	padding:40px 0;
-	/*width:500px;
-	height: 400px;*/
-	transform: skew(10deg);
-}
-
-/*===============End of about styles===================*/
+/*=====================================End of about styles================================*/
 
 
-/*===============Contact styles===================*/
+/*======================================Contact styles====================================*/
+
 #contact{
 	padding:70px 10px;
 }
@@ -505,7 +460,6 @@ blockquote svg.svg-inline--fa{
 
 .contact-title h5{
 	font-size: 1rem;
-	/*font-weight: 500px;*/
 }
 
 .contact-btn{
@@ -541,12 +495,11 @@ blockquote svg.svg-inline--fa{
 	padding-top: 20px;
 }
 
-/*===============End of contact styles===================*/
+/*=======================================End of contact styles===================================*/
 
 
+/*========================================Footer styles==========================================*/
 
-
-/*===============Footer styles===================*/
 .foot{
 	padding: 100px 0;
 	background-color: #080d17;
@@ -565,13 +518,13 @@ blockquote svg.svg-inline--fa{
 	height: 15%;
 }
 
-/*===============End of foot styles===================*/
+/*=====================================End of foot styles===============================================*/
 
 
 
 
 
-/*This applies different styles for different media types/devices*/
+/*===============This applies different styles for different media types/devices==================*/
 @media (max-width: 768px){
 .caption h1{
 	font-size: 1.4rem;
@@ -661,13 +614,6 @@ blockquote svg.svg-inline--fa{
 	font-size: 1rem;
 }
 
-/*
-.about-img img{
-	width:300px;
-	height: 200px;
-	padding:0px 20px;
-}
-*/
 }
 
 @media(min-width:567px){
@@ -689,12 +635,9 @@ blockquote svg.svg-inline--fa{
 	font-size: 1rem;
 }
 
-
-
 }
 
-/*===============Start of About us html page styles===================*/
-
+/*============================Start of About us html page styles==========================*/
 
 .about-us-section{
 	background: url("../images/aboutPage.jpg") no-repeat;
@@ -719,7 +662,7 @@ blockquote svg.svg-inline--fa{
 	padding-bottom: 10px;
 }
 
-/*===============Team styles===================*/
+/*====================================Team styles===========================================*/
 
 #team{
 	padding-bottom: 50px ;
@@ -829,14 +772,13 @@ blockquote svg.svg-inline--fa{
 	transform-style: preserve-3d;
 }
 
+    /*============================End of Team styles======================================*/
 
-/*===============End of Team styles===================*/
+/*=============================End of About us html page styles===============================*/
 
-/*===============End of About us html page styles===================*/
 
-/*===============Start of About us html page styles===================*/
 
-/*===============Contact styles===================*/
+/*=================================Contact styles=============================================*/
 
 .contact-page-section {
 	background-image: url("../images/contactUsBackground.jpg");
@@ -908,11 +850,10 @@ blockquote svg.svg-inline--fa{
 	padding-top: 20px;
 }
 
-/*===============End of contact styles===================*/
+/*=================================End of contact styles================================*/
 
-/*===============Start of Hike pages styles===================*/
 
-/*+++++++++Landing page styles+++++++++++*/
+/*================================Start of Hike pages styles=============================*/
 
 .image-background #image{
   background-image: url("../images/hikesTopImage.jpg");
@@ -1004,10 +945,8 @@ input[type="radio"]:checked ~ label {
 
 }
 
+/*================================Information section styles=============================*/
 
-/*+++++++++End landing page styles+++++++++++*/
-
-/*+++++++++Information section styles+++++++++++*/
 .informationSection {
   padding-top: 10px;
   width: 100%;
@@ -1035,8 +974,6 @@ input[type="radio"]:checked ~ label {
   width: 100%;
 }
 
-
-
 @media screen and (max-width: 650px) {
   .informationSection {
     display: inline-block;
@@ -1054,7 +991,7 @@ input[type="radio"]:checked ~ label {
   .informationSection .box img {
     padding-bottom: 5px;
   }
-  }
+ }
 
   @media (max-width: 567px){
   .star-rating {
@@ -1063,21 +1000,15 @@ input[type="radio"]:checked ~ label {
     margin-left: 160px;
     direction: rtl;
   }
-  }
-/*
-@media screen and (min-width: 1200px) {
-  .wrapper .box .information {
-    font-size: 18px;
-}
-*/
+ }
+
 .d-block {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
 }
 
-/*+++++++++End of information section styles+++++++++++*/
+   /*===============================End of information section styles=============================*/
 
 
-
-/*===============End of Hike pages styles===================*/
+/*=========================================End of Hike pages styles====================================*/
