@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-	$('nav').toggleClass('scrolled', $(this).scrollTop() > 300);
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 30);
 });
 
 
@@ -91,83 +91,77 @@ window.onload = function() {
 
 window.sr =ScrollReveal();
 sr.reveal('.navbar', {
-	duration:2000,
+	duration:1000,
 	origin:'bottom'
 });
 
 sr.reveal('.trails-left', {
-	duration:2000,
+	duration:1000,
 	origin:'top',
-	distance:'300px'
+	distance:'200px'
 });
 
 sr.reveal('.trails-right', {
-	duration:2000,
+	duration:1000,
 	origin:'right',
 	distance:'300px'
 });
 
 sr.reveal('.trail-btn', {
-	duration:2000,
-	delay:2000,
+	duration:1000,
+	delay:1000,
 	origin:'bottom'
 });
 
 sr.reveal('#join div', {
-	duration:2000,
+	duration:1000,
 	origin:'bottom'
 });
 
 sr.reveal('.contact-left', {
-	duration:2000,
+	duration:1000,
 	origin:'left',
 	distance:'300px'
 });
 
 sr.reveal('.contact-form', {
-	duration:2000,
+	duration:1000,
 	origin:'bottom',
 	distance:'300px'
 });
 
 sr.reveal('.card1', {
-	duration:2000,
+	durationn: 2000,
 	origin:'top',
-	distance:'250px'
+	distance:'200px'
 });
 
 
 sr.reveal('.card2', {
-	duration:2000,
+	durationn: 2000,
 	origin:'bottom',
-	distance:'250px'
+	distance:'200px'
 });
 
 sr.reveal('.card3', {
-	duration:2000,
+	durationn: 2000,
 	origin:'top',
-	distance:'250px'
+	distance:'200px'
 });
 
 sr.reveal('.card4', {
-	duration:2000,
+	durationn: 2000,
 	origin:'bottom',
-	distance:'250px'
+	distance:'200px'
 });
 
 sr.reveal('.about-left', {
-	duration:2000,
+	duration:1000,
 	origin:'left',
 	distance:'250px',
 
 });
 
-sr.reveal('.about-right', {
-	duration:2000,
-	origin:'right',
-	distance:'250px',
-
-});
 
 /*smooth scrolling*/
 $(function() {
